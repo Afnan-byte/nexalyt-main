@@ -48,9 +48,6 @@ const Hero = () => {
               >
                 Get Started <ArrowRight size={20} />
               </a>
-              <button className="px-8 py-4 rounded-2xl border-2 border-white/10 font-semibold text-white hover:bg-white/5 hover:border-accent-cyan transition-all">
-                View Portfolio
-              </button>
             </div>
 
             <div className="mt-12 grid grid-cols-2 gap-6">

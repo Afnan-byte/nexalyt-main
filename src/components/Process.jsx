@@ -56,9 +56,14 @@ const Process = () => {
           <p className="text-lg text-slate-text mb-12 max-w-md font-medium">
             Building a website shouldn't be complicated. We keep it simple and keep you updated every step of the way.
           </p>
-          <button className="btn-professional !font-semibold">
+          <a 
+            href="https://wa.me/918089685278?text=Hi%20Nexalyt,%20I'd%20like%20to%20talk%20about%20your%20simple%20process."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-professional !font-semibold inline-flex"
+          >
             Talk to Us Today
-          </button>
+          </a>
         </div>
 
         <div className="bg-surface-dark p-12 rounded-[3rem] shadow-2xl border border-white/5 relative overflow-hidden">

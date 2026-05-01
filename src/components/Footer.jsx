@@ -29,13 +29,13 @@ const Footer = () => {
             <p className="text-slate-text leading-relaxed text-lg font-medium">
               We build beautiful, fast, and modern websites for businesses.
             </p>
-            <div className="flex gap-4">
+            {/* <div className="flex gap-4">
               {[Share2, Link2, MessageCircle, Globe].map((Icon, i) => (
                 <a key={i} href="#" className="w-12 h-12 rounded-xl bg-surface-dark border border-white/10 flex items-center justify-center text-slate-text hover:text-accent-cyan hover:border-accent-cyan transition-all">
                   <Icon size={20} />
                 </a>
               ))}
-            </div>
+            </div> */}
           </div>
 
           {/* Links Col 1 */}
@@ -54,7 +54,7 @@ const Footer = () => {
             <h4 className="font-semibold text-white mb-8 uppercase tracking-widest text-xs">Company</h4>
             <ul className="space-y-4 text-slate-text font-semibold text-sm">
               <li><a href="#" className="hover:text-accent-cyan transition-colors">About Us</a></li>
-              <li><a href="#" className="hover:text-accent-cyan transition-colors">Our Portfolio</a></li>
+              {/* <li><a href="#" className="hover:text-accent-cyan transition-colors">Our Portfolio</a></li> */}
               <li><a href="#" className="hover:text-accent-cyan transition-colors">Our Process</a></li>
               <li><a href="#" className="hover:text-accent-cyan transition-colors">Contact Us</a></li>
             </ul>
@@ -80,13 +80,13 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8 text-slate-text font-semibold text-xs uppercase tracking-widest">
+        <div className="pt-12 border-t border-white/5 flex justify-center text-slate-text font-semibold text-xs uppercase tracking-widest">
           <p>© {new Date().getFullYear()} NEXALYT. All rights reserved.</p>
-          <div className="flex gap-10">
+          {/* <div className="flex gap-10">
             <a href="#" className="hover:text-white">Privacy Policy</a>
             <a href="#" className="hover:text-white">Terms of Use</a>
             <a href="#" className="hover:text-white">Support</a>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
